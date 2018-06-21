@@ -1,0 +1,9 @@
+<h3>Select an image URL and thumbnail size</h3>
+
+<form action="{% url 'index' %}" method="post">
+  {% csrf_token %}
+
+  {{ form.as_p }}
+
+  <input type="submit" value="Thumbnail it!"/>
+</form>

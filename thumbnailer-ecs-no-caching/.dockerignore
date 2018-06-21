@@ -1,0 +1,6 @@
+.virtualenv
+.envrc
+**/__pycache__
+**/*~
+Dockerfile
+.dockerignore

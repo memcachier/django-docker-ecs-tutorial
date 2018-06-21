@@ -1,0 +1,20 @@
+{
+  "name": "benchmarking",
+  "version": "1.0.0",
+  "description": "Benchmarking for Django thumbnailer based on webdriver.io",
+  "scripts": {
+    "test": "wdio wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/memcachier/django-docker-ecs-tutorial.git"
+  },
+  "author": "MemCachier Inc.",
+  "license": "ISC",
+  "homepage": "https://github.com/memcachier/django-docker-ecs-tutorial#readme",
+  "devDependencies": {
+    "wdio-jasmine-framework": "^0.3.4",
+    "wdio-selenium-standalone-service": "0.0.10",
+    "webdriverio": "^4.13.0"
+  }
+}

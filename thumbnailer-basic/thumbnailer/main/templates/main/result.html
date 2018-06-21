@@ -1,0 +1,13 @@
+<h3>Thumbnail result</h3>
+
+<p>Original image URL: <a href="{{ url }}"><span id="image-url">{{ url }}</span></a></p>
+
+<p>Thumbnail size: <span id="thumbnail-size">{{ thumbnail_size }}</span></p>
+
+<p>Processing time: <span id="processing-time">{{ duration }}</span> ms</p>
+
+<p>Server hostname: <span id="server-name">{{ server_name }}</span></p>
+
+<img src="{{ thumbnail_data }}">
+
+<p><a href="{% url 'index' %}">Let's do another one!</a></p>
