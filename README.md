@@ -1,7 +1,7 @@
 # Tutorial showing use of MemCachier with Django+Docker+ECS
 
 This is code to go with a [MemCachier
-tutorial](https://blog.memcachier.com/2018/07/12345/django-docker-ecs-tutorial)
+tutorial](https://blog.memcachier.com/2018/06/27/django-docker-ecs-tutorial/)
 showing how to use Docker, ECS and MemCachier with a simple Django
 application.
 
